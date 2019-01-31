@@ -13,6 +13,8 @@
 		847DDC0A2203A0F00061E388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847DDC082203A0F00061E388 /* LaunchScreen.storyboard */; };
 		847DDC122203A3850061E388 /* EntriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DDC112203A3850061E388 /* EntriesTableViewController.swift */; };
 		847DDC142203A8100061E388 /* EntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DDC132203A8100061E388 /* EntryTableViewCell.swift */; };
+		847DDC162203A9A80061E388 /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DDC152203A9A80061E388 /* EntryDetailViewController.swift */; };
+		847DDC182203AB670061E388 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DDC172203AB670061E388 /* Entry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		847DDC0B2203A0F00061E388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847DDC112203A3850061E388 /* EntriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesTableViewController.swift; sourceTree = "<group>"; };
 		847DDC132203A8100061E388 /* EntryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTableViewCell.swift; sourceTree = "<group>"; };
+		847DDC152203A9A80061E388 /* EntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
+		847DDC172203AB670061E388 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				847DDBFF2203A0EF0061E388 /* AppDelegate.swift */,
 				847DDC032203A0EF0061E388 /* Main.storyboard */,
 				847DDC132203A8100061E388 /* EntryTableViewCell.swift */,
+				847DDC152203A9A80061E388 /* EntryDetailViewController.swift */,
+				847DDC172203AB670061E388 /* Entry.swift */,
 				847DDC112203A3850061E388 /* EntriesTableViewController.swift */,
 				847DDC062203A0F00061E388 /* Assets.xcassets */,
 				847DDC082203A0F00061E388 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847DDC182203AB670061E388 /* Entry.swift in Sources */,
 				847DDC142203A8100061E388 /* EntryTableViewCell.swift in Sources */,
 				847DDC122203A3850061E388 /* EntriesTableViewController.swift in Sources */,
+				847DDC162203A9A80061E388 /* EntryDetailViewController.swift in Sources */,
 				847DDC002203A0EF0061E388 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
